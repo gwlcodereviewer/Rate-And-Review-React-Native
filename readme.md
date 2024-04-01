@@ -8,7 +8,8 @@ There is a screen for review comments where user can see reviews given by other 
 In order to have a good separation of code we have created separate component RateAndReview.
 User can import the component and call it as a modal. 
 Need to create a state ratingModalVisible  and call setRatingModalVisible(true) where want to integrate  the feature 
-`
+
+```
   const [ratingModalVisible, setRatingModalVisible] = useState<boolean>(false);
 
 <RateAndReview
@@ -16,7 +17,9 @@ Need to create a state ratingModalVisible  and call setRatingModalVisible(true) 
         onClose={() => {
           setRatingModalVisible(false);
         }}
-      />`
+      />
+
+```
 We have on more feature reviews where we can see review added by user.
 We will call it by using navigation ReviewComments, in which component rating, user name and comment fields listed.
 
