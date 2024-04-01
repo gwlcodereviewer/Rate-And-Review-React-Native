@@ -24,7 +24,8 @@ We have on more feature reviews where we can see review added by user.
 We will call it by using navigation ReviewComments, in which component rating, user name and comment fields listed.
 
  
-
+https://github.com/gwlcodereviewer/Rate-And-Review-React-Native/blob/main/Screenshot-1.png
+https://github.com/gwlcodereviewer/Rate-And-Review-React-Native/blob/main/Screenshot-2.png
 
 
 
